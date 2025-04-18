@@ -1,0 +1,9 @@
+{
+  "name": "quantfarm",
+  "version": "1.0.0",
+  "description": "QuantFarm static website",
+  "scripts": {
+    "build": "mkdir -p build && cp -r *.html *.css *.js *.png *.jpg build/",
+    "build:azure": "npm run build"
+  }
+} 
